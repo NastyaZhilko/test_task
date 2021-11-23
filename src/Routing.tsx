@@ -13,8 +13,8 @@ const Routing: React.FC =()=>{
     return (
         <div>
             <Routes>
-                <Route path='/'  element={<Main/>}/>
-                <Route path="/employees"  element={<Employees/>}/>
+                <Route path={PATH.MAIN}  element={<Main/>}/>
+                <Route path={PATH.EMPLOYEES}   element={<Employees/>}/>
                 <Route path="*" element={<Error404/>}/>
             </Routes>
         </div>

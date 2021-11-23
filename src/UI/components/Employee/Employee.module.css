@@ -1,0 +1,16 @@
+.container{
+    width: 45%;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px 0  rgba(0,0,0,0.3)
+}
+.block{
+    margin: 15px;
+}
+.block img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
